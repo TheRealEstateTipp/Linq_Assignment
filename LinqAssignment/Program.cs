@@ -15,6 +15,14 @@ namespace LinqAssignment
             List<string> words = new List<string>() { "the", "bike", "this", "it", "tenth", "mathematics" };
 
             var substringTH = words.Select(w => w.Contains("th"));
+
+
+            //write a function that takes in a list of strings and returns a copy of the list without duplicates 
+
+            List<string> names = new List<string>() { "Mike", "Brad", "Nevin", "Ian", "Mike" };
+
+            var differentNamesOnly = names.Distinct();
+
         }
     }
 }
